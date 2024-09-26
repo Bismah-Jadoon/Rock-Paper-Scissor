@@ -1,9 +1,8 @@
 body{
- margin: 0px;
- padding: 0px;
+    background-image: url("https://media.istockphoto.com/id/1271192332/vector/rock-paper-scissors-hands.jpg?s=612x612&w=0&k=20&c=0rpjrm9tzMY_owpSn2PNiawxYd1kBLZbAaRkSmJZvRU=");
+    background-repeat: no-repeat;
+    background-size:cover;
 }
-
-
 .heading{
     background-color: rgb(3, 3, 97);
     height: 4rem;
@@ -12,7 +11,10 @@ body{
     margin: 0px;
     padding: 6px;
     }
-.image{
-    margin-left: 19rem;
-}
 
+    .game{
+     
+        
+    }
+
+  
