@@ -46,7 +46,7 @@ img{
  align-items: center;
  font-size: 2rem;
  gap: 5rem;
- margin-top: 2rem;
+ margin-top: 3rem;
 }
 
 #user, #comp{
@@ -56,14 +56,14 @@ img{
 
 .msg{
  font-size: 3rem;
- background-color: rgb(2, 2, 42);
+ background-color: rgb(6, 6, 87);
  color: white;
  display: inline;
  border-radius: 6px;
 }
 
 .msj{
-    margin-top: 6rem;
+    margin-top: 3rem;
 }
 
 
