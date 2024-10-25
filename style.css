@@ -1,32 +1,70 @@
-body{
-    background-image: url("https://media.istockphoto.com/id/1271192332/vector/rock-paper-scissors-hands.jpg?s=612x612&w=0&k=20&c=0rpjrm9tzMY_owpSn2PNiawxYd1kBLZbAaRkSmJZvRU=");
-    background-repeat: no-repeat;
-    background-size:cover;
+*{
+     margin: 0;
+     padding: 0;
+     text-align: center;
 }
 
-    div{
-        text-align: center;
-        display: inline-flex;
-        cursor: pointer;
-    }
+h1{
+    background-color: rgb(2, 2, 45);
+    color: white;
+    height: 5rem;
+    line-height: 5rem;
+}
 
-    .first{
-        padding: 4px;
-        text-align: center;
-    } 
-    .sec{
-        padding: 4px;
-        text-align: center;
-    } 
-    .third{
-        padding: 4px;
-        text-align: center;
-    }
+.choice{
+    height: 165px;
+    width: 165px;
+   border-radius: 50%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.choice:hover{
+    background-color: rgb(11, 6, 35);
+    cursor: pointer;
+}
+
+img{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
   
+.choices{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 5rem;
+    gap: 3rem;
+}
+
+.score-board{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ font-size: 2rem;
+ gap: 5rem;
+ margin-top: 3rem;
+}
+
+#user, #comp{
+    font-size: 4rem;
+}
 
 
+.msg{
+ font-size: 4rem;
+ background-color: rgb(2, 2, 49);
+ color: white;
+ display: inline;
+ border-radius: 6px;
+}
+
+.msj{
+    margin-top: 2rem;
+}
 
 
-
-    
   
