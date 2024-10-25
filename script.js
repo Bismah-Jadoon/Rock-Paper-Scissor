@@ -17,21 +17,21 @@ let playGame = (userChoice) => {
         if(userWin === true){
             user++;
             userScore.innerText = user;
-            let msg = msj.innerText = (`You win. your ${userChoice} beats ${computer}`);
-            msg.style.backgroundColor = "green";  
+            msj.innerText = (`You win. your ${userChoice} beats ${computer}`);
+            msj.style.backgroundColor = "green";  
         }
         else {
             comp++;
             CompScore.innerText = comp;
-            msg = msj.innerText = (`You lost. computer ${computer} beats ${userChoice}`);
-           msg.style.backgroundColor = "red";           
+            msj.innerText = (`You lost. computer ${computer} beats ${userChoice}`);
+            msj.style.backgroundColor = "red";           
         }
          
     }
 
     if(userChoice === computer){
-        msg = msj.innerText = "Match Withdraw";
-        msg.style.backgroundColor = "#081b31";  
+        msj.innerText = "Match Withdraw";
+        msj.style.backgroundColor = "#081b31";  
     }
     else{
         let userWin = true;
