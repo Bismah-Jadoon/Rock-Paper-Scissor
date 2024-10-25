@@ -15,15 +15,15 @@ let playGame = (userChoice) => {
 
     let showWin = (userWin) => {
         if(userWin === true){
-            let msg = msj.innerText = (`You win by choosing ${userChoice} from computer ${computer}`);
             user++;
             userScore.innerText = user;
+            let msg = msj.innerText = (`You win. your ${userChoice} beats ${computer}`);
             msg.style.backgroundColor = "green";  
         }
         else {
-           msg = msj.innerText = (`You lose by choosing ${userChoice} from computer ${computer}`);
-           comp++;
-           CompScore.innerText = comp;
+            comp++;
+            CompScore.innerText = comp;
+            msg = msj.innerText = (`You lost. computer ${computer} beats ${userChoice}`);
            msg.style.backgroundColor = "red";           
         }
          
@@ -31,7 +31,7 @@ let playGame = (userChoice) => {
 
     if(userChoice === computer){
         msg = msj.innerText = "Match Withdraw";
-
+        msg.style.backgroundColor = "#081b31";  
     }
     else{
         let userWin = true;
