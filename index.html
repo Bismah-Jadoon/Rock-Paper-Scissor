@@ -7,13 +7,41 @@
   <title>Game</title>
 </head>
 <body>
-  <script src="script.js"></script>
+ 
 
-  <div class="heading">
-  <h1 class="first">Rock</h1>
-  <h1 class="sec">Paper</h1>
-  <h1 class="third">Scissor</h1>
+  <h1>Rock Paper Scissors</h1>
+
+  <div class="choices">
+    <div class="choice" id="rock">
+      <img class="one" src="rock.png" alt="">
+    </div> 
+    
+    <div class="choice" id="paper">
+      <img class="two" src="paper.png" alt="">
+    </div> 
+    
+    <div class="choice" id="scissors">
+      <img class="three" src="scissors.png" alt="">
+    </div> 
+</div>
+
+<div class="score-board">
+  <div class="score" id="user">
+    <p id="user">0</p>
+    <p>You</p>
   </div>
 
+   <div class="score" id="comp">
+    <p id="comp">0</p>
+    <p>Comp</p>
+  </div>
+</div>
+
+
+<div class="msj">
+  <p class="msg" id="message">Play Your Move</p>
+</div>
+  
+<script src="script.js"></script>
 </body>
 </html>
