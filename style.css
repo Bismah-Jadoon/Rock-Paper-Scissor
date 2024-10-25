@@ -46,24 +46,24 @@ img{
  align-items: center;
  font-size: 2rem;
  gap: 5rem;
- margin-top: 3rem;
+ margin-top: 2rem;
 }
 
 #user, #comp{
-    font-size: 4rem;
+    font-size: 3rem;
 }
 
 
 .msg{
- font-size: 4rem;
- background-color: rgb(2, 2, 49);
+ font-size: 3rem;
+ background-color: rgb(2, 2, 42);
  color: white;
  display: inline;
  border-radius: 6px;
 }
 
 .msj{
-    margin-top: 2rem;
+    margin-top: 6rem;
 }
 
 
